@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Concert One', cursive;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #362222;
+}
+.container{
+    position: relative;
+    background: #F0DBDB;
+    border-radius: 6px;
+    overflow: hidden;
+    z-index: 10;
+    backdrop-filter: blur(15px);
+    border-top: 1px solid  #DBA39A;
+    border-left: 1px solid #DBA39A;
+    box-shadow: 5px 5px 30px #DBA39A;
+}
+.container .Calculadora{
+    position: relative;
+    display: grid;
+}
+.container .Calculadora .value{
+    grid-column: span 4;
+    height: 140px;
+    width: 300px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 30px;
+    background: transparent;
+    color: black;
+    border-bottom: 1px solid #DBA39A;
+    border-right: 1px solid #DBA39A;
+
+}
+.container .Calculadora span{
+    display: grid;
+    place-items: center;
+    width: 75px;
+    height: 75px;
+    color: black;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+    transition: 0s;
+    
+}
+.container .Calculadora span:hover{
+    transition: 0s;
+    background: #DBA39A;
+}
+.container .Calculadora .limpar{
+
+    grid-column:  span 2;
+    width: 150px;
+    background:#DBA39A;
+
+}
+.container .Calculadora .mais{
+
+    grid-row: span 2;
+    height: 150px;
+    
+}
+.container .Calculadora .igual{
+    background: #DBA39A;
+}

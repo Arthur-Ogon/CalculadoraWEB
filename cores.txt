@@ -1,0 +1,9 @@
+#FEFCF3   white  rgb(254, 252, 243)
+
+#F5EBE0   beige  rgb(245, 235, 224)
+
+#F0DBDB   pastel rgb(240, 219, 219)
+
+#DBA39A   cream  rgb(219, 163, 154)
+
+#362222   brown  rgb(54, 34, 34)
